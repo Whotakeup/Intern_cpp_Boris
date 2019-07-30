@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.12)
+project(manipulator_json)
+set(SOURCE_LIB manipulator_json.cpp)
+add_library(manipulator_json STATIC ${SOURCE_LIB})
