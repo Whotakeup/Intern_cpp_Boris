@@ -1,0 +1,5 @@
+Microcontroller emulator: Proteus 8
+IDE: Atmel Studio 7.0
+Microcontroller: Atmega 8
+
+This program represents LEDs blinking using microcontroller emulator. Were used microcontroller Atmega 8, 3 green LEDs, 3 yellow LEDs, 6 Ohm resistors
