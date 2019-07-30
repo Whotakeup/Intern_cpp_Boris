@@ -1,1 +1,11 @@
-
+cmake_minimum_required(VERSION 3.12)
+project(json_functional)
+set(SOURCE_EXE main.cpp)
+set(TEST test.cpp)
+set(JSON json)
+set(MANIPULATOR manipulator_json)
+include_directories(${JSON} ${MANIPULATOR})
+add_executable(main ${SOURCE_EXE})
+add_subdirectory(test)
+add_subdirectory(manipulator_json)
+target_link_libraries(main manipulator_json)
